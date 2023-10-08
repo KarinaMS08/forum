@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+
+struct Mahasiswa {
+    char nama[30];
+    int umur;
+};
+
+int main() {
+    struct Mahasiswa mhs1;
+
+    strcpy(mhs1.nama, "Manusia");
+    mhs1.umur = 25;
+
+    printf("Nama: %s\n", mhs1.nama);
+    printf("Umur: %d\n", mhs1.umur);
+
+    return 0;
+}

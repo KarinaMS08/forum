@@ -1,1 +1,0 @@
-# forum-tanpa-typedef
